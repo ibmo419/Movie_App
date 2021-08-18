@@ -55,7 +55,7 @@ function App() {
       title: "Prestige",
       rate: 4,
       description:
-        "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki from enslaving humanity.",
+        "The film The Prestige is an adaptation of a book written by Christopher Priest, published in 1995. The feature film, meanwhile, was directed in 2006 by Christopher Nolan.",
       img:
         "https://static.fnac-static.com/multimedia/images_produits/ZoomPE/1/7/4/7321910106471/tsp20130828151349/Le-prestige-DVD.jpg",
       hrf:"https://youtu.be/9UZcD4G-nBA"
