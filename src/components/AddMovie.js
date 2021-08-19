@@ -7,6 +7,7 @@ const AddMovie = ({ show, handleClose, addNewMovie }) => {
     description: "",
     rate: 0,
     img: "",
+    hrf:"",
   });
   const handleChange = (e) => {
     setNewmovie({ ...newmovie, [e.target.name]: e.target.value });
@@ -39,6 +40,13 @@ const AddMovie = ({ show, handleClose, addNewMovie }) => {
                 type="text"
                 placeholder="Enter movie poster"
                 name="img"
+                onChange={handleChange}
+              />
+              <Form.Label>Movie Video</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter movie video"
+                name="hrf"
                 onChange={handleChange}
               />
               <Form.Label>Movie Rate</Form.Label>
