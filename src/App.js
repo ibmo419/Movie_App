@@ -2,6 +2,8 @@ import { useState } from "react";
 import MovieList from "./components/MovieList";
 import FilterMovie from "./components/FilterMovie";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer";
+import Nabar from "./components/Nabar"
 
 function App() {
   const [movies, setMovies] = useState([
@@ -72,6 +74,7 @@ function App() {
   };
   return (
     <div>
+      <Nabar/>
       <FilterMovie keyRate={keyRate} setKeyRate={setKeyRate} search={search} />
       <MovieList
         movies={movies.filter(
@@ -81,6 +84,7 @@ function App() {
         )}
         addNewMovie={addNewMovie}
       />
+      <Footer/>
     </div>
   );
 }

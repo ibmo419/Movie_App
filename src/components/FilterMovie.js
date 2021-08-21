@@ -10,9 +10,10 @@ const FilterMovie = ({ setKeyRate, search, keyRate }) => {
     <Container>
       <Row style={{marginTop:"10px"}}>
         <Col sm={8} >
-        <Form>
-          <Form.Label>Search By Name :</Form.Label>
+        <Form className="search_form">
+          <Form.Label className="search">Search By Name :</Form.Label>
           <Form.Control
+          className="input_search"
             type="text"
             placeholder="Search for a movie"
             onChange={(e) => {
@@ -21,8 +22,8 @@ const FilterMovie = ({ setKeyRate, search, keyRate }) => {
           />
         </Form>
         </Col>
-        <Col sm={4} className="star_style">
-          <span>Search By Rate :</span>
+        <Col sm={4} className="search_form">
+          <span className="search">Search By Rate :</span>
           <StarRatingComponent
             name="keyRate"
             starCount={5}
