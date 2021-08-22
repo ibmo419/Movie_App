@@ -9,7 +9,7 @@ const FilterMovie = ({ setKeyRate, search, keyRate }) => {
   return (
     <Container>
       <Row style={{marginTop:"10px"}}>
-        <Col sm={8} >
+        <Col sm={5} >
         <Form className="search_form">
           <Form.Label className="search">Search By Name :</Form.Label>
           <Form.Control
@@ -22,7 +22,7 @@ const FilterMovie = ({ setKeyRate, search, keyRate }) => {
           />
         </Form>
         </Col>
-        <Col sm={4} className="search_form">
+        <Col sm={7} className="search_form">
           <span className="search">Search By Rate :</span>
           <StarRatingComponent
             name="keyRate"

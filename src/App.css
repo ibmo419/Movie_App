@@ -76,3 +76,7 @@ padding-top: 15px;
   flex-direction: column;
   align-items: center;
 }
+.col_movie_card{
+  display: flex;
+  justify-content: center;
+}

@@ -20,7 +20,7 @@ const MovieList = ({ movies, addNewMovie }) => {
         </div>
         <Row style={{ display: "flex",justifyContent:"space-between"}}>
           {movies.map((movie) => (
-            <Col>
+            <Col className="col_movie_card">
             <MovieCard movie={movie}/>
             </Col>
           ))}
